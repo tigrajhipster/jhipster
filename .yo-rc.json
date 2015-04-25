@@ -1,0 +1,20 @@
+{
+  "generator-jhipster": {
+    "baseName": "first",
+    "packageName": "hu.tigra.first",
+    "packageFolder": "hu/tigra/first",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useCompass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "7",
+    "rememberMeKey": "21f34250679444cc93682e994ed351126ba1c169"
+  }
+}
