@@ -7,7 +7,7 @@ angular.module('firstApp')
                 parent: 'entity',
                 url: '/book',
                 data: {
-                    roles: ['ROLE_USER'],
+                    roles: ['ROLE_USER','ROLE_VIEWER'],
                     pageTitle: 'firstApp.book.home.title'
                 },
                 views: {

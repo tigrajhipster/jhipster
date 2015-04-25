@@ -3,13 +3,16 @@ package hu.tigra.first.domain;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+
 import hu.tigra.first.domain.util.CustomLocalDateSerializer;
 import hu.tigra.first.domain.util.ISO8601LocalDateDeserializer;
+
 import org.hibernate.annotations.Type;
 import org.joda.time.LocalDate;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.HashSet;
@@ -28,6 +31,7 @@ public class Book implements Serializable {
     private Long id;
 
     @Column(name = "title")
+    @NotNull
     private String title;
 
     @Column(name = "description")

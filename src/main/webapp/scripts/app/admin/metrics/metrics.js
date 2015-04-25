@@ -7,7 +7,7 @@ angular.module('firstApp')
                 parent: 'admin',
                 url: '/metrics',
                 data: {
-                    roles: ['ROLE_ADMIN'],
+                    roles: ['ROLE_ADMIN','ROLE_USER'],
                     pageTitle: 'metrics.title'
                 },
                 views: {
